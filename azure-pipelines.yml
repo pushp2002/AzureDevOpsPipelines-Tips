@@ -25,7 +25,7 @@ steps:
     provider: 'azurerm'
     command: 'init'
     workingDirectory: '$(System.DefaultWorkingDirectory)/skip-step'
-    backendServiceArm: 'Free Trial(e057ae55-3741-4b5f-ac13-653dc8ce11e5)'
+    backendServiceArm: 'Free Trial(1)(e057ae55-3741-4b5f-ac13-653dc8ce11e5)'
     backendAzureRmResourceGroupName: 'resourcegroup-tfstate'
     backendAzureRmStorageAccountName: '$(storageAccount)'
     backendAzureRmContainerName: '$(container)'
